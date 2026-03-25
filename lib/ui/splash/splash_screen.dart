@@ -1,4 +1,6 @@
 import 'package:evently_c18_dokki/core/provider/app_config_provider.dart';
+import 'package:evently_c18_dokki/ui/home/home_screen.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -17,8 +19,12 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+    User? user = FirebaseAuth.instance.currentUser;
     Future.delayed(const Duration(seconds: 3), () {
-      Navigator.pushReplacementNamed(context, AppSetupScreen.routeName);
+      Navigator.pushReplacementNamed(
+        context,
+        user != null ? HomeScreen.routeName : AppSetupScreen.routeName,
+      );
     });
   }
 

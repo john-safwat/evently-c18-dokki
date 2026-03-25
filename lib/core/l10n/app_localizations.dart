@@ -139,6 +139,144 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Let’s start'**
   String get letsStart;
+
+  /// Title heading on the login screen
+  ///
+  /// In en, this message translates to:
+  /// **'Login to your account'**
+  String get loginToYourAccount;
+
+  /// Hint text for the email input field on the login screen
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your email'**
+  String get enterYourEmail;
+
+  /// Hint text for the password input field on the login screen
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your password'**
+  String get enterYourPassword;
+
+  /// Link text for the forget password action on the login screen
+  ///
+  /// In en, this message translates to:
+  /// **'Forget Password?'**
+  String get forgetPassword;
+
+  /// Label for the login button on the login screen
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get login;
+
+  /// Prompt text asking if the user does not have an account on the login screen
+  ///
+  /// In en, this message translates to:
+  /// **'Don’t have an account ? '**
+  String get dontHaveAnAccount;
+
+  /// Link text for navigating to the signup screen
+  ///
+  /// In en, this message translates to:
+  /// **'Signup'**
+  String get signup;
+
+  /// Divider text between login methods on the login screen
+  ///
+  /// In en, this message translates to:
+  /// **'Or'**
+  String get or;
+
+  /// Label for the Google sign-in button on the login screen
+  ///
+  /// In en, this message translates to:
+  /// **'Login with Google'**
+  String get loginWithGoogle;
+
+  /// Title heading on the register/signup screen
+  ///
+  /// In en, this message translates to:
+  /// **'Create your account'**
+  String get createYourAccount;
+
+  /// Hint text for the name input field on the register screen
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your name'**
+  String get enterYourName;
+
+  /// Hint text for the confirm password input field on the register screen
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm your password'**
+  String get confirmYourPassword;
+
+  /// Label for the sign up button on the register screen
+  ///
+  /// In en, this message translates to:
+  /// **'Sign up'**
+  String get signUp;
+
+  /// Prompt text asking if the user already has an account on the register screen
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account?'**
+  String get alreadyHaveAnAccount;
+
+  /// Label for the Google sign-up button on the register screen
+  ///
+  /// In en, this message translates to:
+  /// **'Sign up with Google'**
+  String get signUpWithGoogle;
+
+  /// Validation error when name field is empty
+  ///
+  /// In en, this message translates to:
+  /// **'Name is required'**
+  String get nameRequired;
+
+  /// Validation error when name contains invalid characters
+  ///
+  /// In en, this message translates to:
+  /// **'Name can only contain English or Arabic letters'**
+  String get invalidName;
+
+  /// Validation error when email field is empty
+  ///
+  /// In en, this message translates to:
+  /// **'Email is required'**
+  String get emailRequired;
+
+  /// Validation error when email format is invalid
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid email address'**
+  String get invalidEmail;
+
+  /// Validation error when password field is empty
+  ///
+  /// In en, this message translates to:
+  /// **'Password is required'**
+  String get passwordRequired;
+
+  /// Validation error when password does not meet strength requirements
+  ///
+  /// In en, this message translates to:
+  /// **'Password must be at least 8 characters with uppercase, lowercase, number, and special character'**
+  String get invalidPassword;
+
+  /// Validation error when password confirmation field is empty
+  ///
+  /// In en, this message translates to:
+  /// **'Password confirmation is required'**
+  String get passwordConfirmationRequired;
+
+  /// Validation error when password and confirmation do not match
+  ///
+  /// In en, this message translates to:
+  /// **'Passwords do not match'**
+  String get passwordsDoNotMatch;
 }
 
 class _AppLocalizationsDelegate

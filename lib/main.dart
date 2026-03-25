@@ -3,12 +3,23 @@ import 'package:evently_c18_dokki/core/provider/app_config_provider.dart';
 import 'package:evently_c18_dokki/core/theme/app_theme.dart';
 import 'package:evently_c18_dokki/core/utils/shared_prefernces_keys.dart';
 import 'package:evently_c18_dokki/ui/app_setup/app_setup_screen.dart';
+import 'package:evently_c18_dokki/ui/home/home_screen.dart';
+import 'package:evently_c18_dokki/ui/login/login_screen.dart';
+import 'package:evently_c18_dokki/ui/signup/signup_screen.dart';
 import 'package:evently_c18_dokki/ui/splash/splash_screen.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-void main() {
+import 'firebase_options.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(MyApp());
 }
 
@@ -48,6 +59,9 @@ class _MyAppState extends State<MyApp> {
             routes: {
               SplashScreen.routeName: (_) => SplashScreen(),
               AppSetupScreen.routeName: (_) => AppSetupScreen(),
+              LoginScreen.routeName: (_) => LoginScreen(),
+              SignupScreen.routeName: (_) => SignupScreen(),
+              HomeScreen.routeName: (_) => HomeScreen(),
             },
           );
         },

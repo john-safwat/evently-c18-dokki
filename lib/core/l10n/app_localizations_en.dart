@@ -29,4 +29,75 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get letsStart => 'Let’s start';
+
+  @override
+  String get loginToYourAccount => 'Login to your account';
+
+  @override
+  String get enterYourEmail => 'Enter your email';
+
+  @override
+  String get enterYourPassword => 'Enter your password';
+
+  @override
+  String get forgetPassword => 'Forget Password?';
+
+  @override
+  String get login => 'Login';
+
+  @override
+  String get dontHaveAnAccount => 'Don’t have an account ? ';
+
+  @override
+  String get signup => 'Signup';
+
+  @override
+  String get or => 'Or';
+
+  @override
+  String get loginWithGoogle => 'Login with Google';
+
+  @override
+  String get createYourAccount => 'Create your account';
+
+  @override
+  String get enterYourName => 'Enter your name';
+
+  @override
+  String get confirmYourPassword => 'Confirm your password';
+
+  @override
+  String get signUp => 'Sign up';
+
+  @override
+  String get alreadyHaveAnAccount => 'Already have an account?';
+
+  @override
+  String get signUpWithGoogle => 'Sign up with Google';
+
+  @override
+  String get nameRequired => 'Name is required';
+
+  @override
+  String get invalidName => 'Name can only contain English or Arabic letters';
+
+  @override
+  String get emailRequired => 'Email is required';
+
+  @override
+  String get invalidEmail => 'Please enter a valid email address';
+
+  @override
+  String get passwordRequired => 'Password is required';
+
+  @override
+  String get invalidPassword =>
+      'Password must be at least 8 characters with uppercase, lowercase, number, and special character';
+
+  @override
+  String get passwordConfirmationRequired =>
+      'Password confirmation is required';
+
+  @override
+  String get passwordsDoNotMatch => 'Passwords do not match';
 }

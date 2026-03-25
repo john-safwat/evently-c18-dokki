@@ -28,6 +28,25 @@ class AppTheme {
         padding: const EdgeInsets.all(16),
       ),
     ),
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(
+        textStyle: TextStyle(
+          fontSize: 14,
+            color: AppColors.lightMainColor,
+          decoration: TextDecoration.underline
+        )
+      )
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        padding: EdgeInsets.all(16),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        elevation: 0,
+        backgroundColor: AppColors.lightInputs,
+        side: BorderSide(width: 1 , color: AppColors.lightStroke
+        )
+      )
+    ),
     outlinedButtonTheme: OutlinedButtonThemeData(
       style: OutlinedButton.styleFrom(
         backgroundColor: AppColors.lightBackground,
@@ -90,6 +109,37 @@ class AppTheme {
         fontSize: 12,
         fontWeight: FontWeight.bold,
         color: AppColors.lightMainText,
+      ),
+    ),
+    inputDecorationTheme: InputDecorationTheme(
+      filled: true,
+      fillColor: AppColors.lightInputs,
+      hintStyle: TextStyle(
+          fontSize: 14 ,
+          color: AppColors.lightSecText
+      ),
+      prefixIconColor: AppColors.lightDisable,
+      suffixIconColor: AppColors.lightDisable,
+      contentPadding: const EdgeInsets.all(16),
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: const BorderSide(color: AppColors.lightStroke),
+      ),
+      disabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: const BorderSide(color: AppColors.lightStroke),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: const BorderSide(color: AppColors.lightStroke),
+      ),
+      errorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: const BorderSide(color: AppColors.lightRed),
+      ),
+      focusedErrorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: const BorderSide(color: AppColors.lightRed),
       ),
     ),
   );
@@ -183,6 +233,55 @@ class AppTheme {
         fontWeight: FontWeight.bold,
         color: AppColors.darkMainText,
       ),
+    ),
+    textButtonTheme: TextButtonThemeData(
+        style: TextButton.styleFrom(
+            textStyle: TextStyle(
+                fontSize: 14,
+                color: AppColors.darkMainColor,
+                decoration: TextDecoration.underline
+            )
+        )
+    ),
+    inputDecorationTheme: InputDecorationTheme(
+      filled: true,
+      fillColor: AppColors.darkInputs,
+      prefixIconColor: AppColors.darkDisable,
+      suffixIconColor: AppColors.darkDisable,
+      contentPadding: const EdgeInsets.all(16),
+      hintStyle: TextStyle(
+        fontSize: 14 ,
+        color: AppColors.darkSecText
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: const BorderSide(color: AppColors.darkStroke),
+      ),
+      disabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: const BorderSide(color: AppColors.darkStroke),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: const BorderSide(color: AppColors.darkStroke),
+      ),
+      errorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: const BorderSide(color: AppColors.darkRed),
+      ),
+      focusedErrorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: const BorderSide(color: AppColors.darkRed),
+      ),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ElevatedButton.styleFrom(
+            padding: EdgeInsets.all(16),
+            backgroundColor: AppColors.darkInputs,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+            elevation: 0,
+            side: BorderSide(width: 1 , color: AppColors.darkStroke)
+        )
     ),
   );
 }

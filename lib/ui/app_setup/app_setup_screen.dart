@@ -3,6 +3,8 @@ import 'package:evently_c18_dokki/core/provider/app_config_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../login/login_screen.dart' show LoginScreen;
+
 class AppSetupScreen extends StatelessWidget {
   static const String routeName = "AppSetup";
 
@@ -125,7 +127,9 @@ class AppSetupScreen extends StatelessWidget {
               ),
 
               FilledButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushReplacementNamed(context, LoginScreen.routeName);
+                },
                 style: FilledButton.styleFrom(
                   minimumSize: Size(double.infinity, 56),
                 ),

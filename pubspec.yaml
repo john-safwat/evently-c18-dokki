@@ -39,8 +39,10 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: any
-
+  icons_plus:
+  firebase_core:
   shared_preferences: 
+  firebase_auth: ^6.2.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

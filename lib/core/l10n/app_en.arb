@@ -5,5 +5,97 @@
   "english": "English",
   "arabic": "Arabic",
   "theme": "Theme",
-  "letsStart": "Let’s start"
+  "letsStart": "Let’s start",
+  "loginToYourAccount": "Login to your account",
+  "@loginToYourAccount": {
+    "description": "Title heading on the login screen"
+  },
+  "enterYourEmail": "Enter your email",
+  "@enterYourEmail": {
+    "description": "Hint text for the email input field on the login screen"
+  },
+  "enterYourPassword": "Enter your password",
+  "@enterYourPassword": {
+    "description": "Hint text for the password input field on the login screen"
+  },
+  "forgetPassword": "Forget Password?",
+  "@forgetPassword": {
+    "description": "Link text for the forget password action on the login screen"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Label for the login button on the login screen"
+  },
+  "dontHaveAnAccount": "Don’t have an account ? ",
+  "@dontHaveAnAccount": {
+    "description": "Prompt text asking if the user does not have an account on the login screen"
+  },
+  "signup": "Signup",
+  "@signup": {
+    "description": "Link text for navigating to the signup screen"
+  },
+  "or": "Or",
+  "@or": {
+    "description": "Divider text between login methods on the login screen"
+  },
+  "loginWithGoogle": "Login with Google",
+  "@loginWithGoogle": {
+    "description": "Label for the Google sign-in button on the login screen"
+  },
+  "createYourAccount": "Create your account",
+  "@createYourAccount": {
+    "description": "Title heading on the register/signup screen"
+  },
+  "enterYourName": "Enter your name",
+  "@enterYourName": {
+    "description": "Hint text for the name input field on the register screen"
+  },
+  "confirmYourPassword": "Confirm your password",
+  "@confirmYourPassword": {
+    "description": "Hint text for the confirm password input field on the register screen"
+  },
+  "signUp": "Sign up",
+  "@signUp": {
+    "description": "Label for the sign up button on the register screen"
+  },
+  "alreadyHaveAnAccount": "Already have an account?",
+  "@alreadyHaveAnAccount": {
+    "description": "Prompt text asking if the user already has an account on the register screen"
+  },
+  "signUpWithGoogle": "Sign up with Google",
+  "@signUpWithGoogle": {
+    "description": "Label for the Google sign-up button on the register screen"
+  },
+  "nameRequired": "Name is required",
+  "@nameRequired": {
+    "description": "Validation error when name field is empty"
+  },
+  "invalidName": "Name can only contain English or Arabic letters",
+  "@invalidName": {
+    "description": "Validation error when name contains invalid characters"
+  },
+  "emailRequired": "Email is required",
+  "@emailRequired": {
+    "description": "Validation error when email field is empty"
+  },
+  "invalidEmail": "Please enter a valid email address",
+  "@invalidEmail": {
+    "description": "Validation error when email format is invalid"
+  },
+  "passwordRequired": "Password is required",
+  "@passwordRequired": {
+    "description": "Validation error when password field is empty"
+  },
+  "invalidPassword": "Password must be at least 8 characters with uppercase, lowercase, number, and special character",
+  "@invalidPassword": {
+    "description": "Validation error when password does not meet strength requirements"
+  },
+  "passwordConfirmationRequired": "Password confirmation is required",
+  "@passwordConfirmationRequired": {
+    "description": "Validation error when password confirmation field is empty"
+  },
+  "passwordsDoNotMatch": "Passwords do not match",
+  "@passwordsDoNotMatch": {
+    "description": "Validation error when password and confirmation do not match"
+  }
 }
